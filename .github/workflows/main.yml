@@ -9,7 +9,7 @@ jobs:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@master
       with:
-        host: cespu.pt
+        host: 213.205.81.6
         username: root
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 1330
