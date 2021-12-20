@@ -45,5 +45,5 @@ jobs:
           REMOTE_HOST: 213.205.81.6
           REMOTE_PORT: 1330
           REMOTE_USER: root
-          # TARGET: ${{ secrets.REMOTE_TARGET }}
+          TARGET: /sites/webapps/teste/
           EXCLUDE: "/dist/, /node_modules/"
