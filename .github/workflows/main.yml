@@ -17,7 +17,7 @@
 #           cd /sites/webapps/public/
 #           ls
 
-name: Node CI
+name: Node CI funciona
 
 on: [push]
 
