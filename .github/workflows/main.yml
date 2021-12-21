@@ -41,7 +41,7 @@ jobs:
       env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           ARGS: "-rltgoDzvO --delete"
-          SOURCE: "dist/"
+          SOURCE: "dist/aaaa/"
           REMOTE_HOST: 213.205.81.6
           REMOTE_PORT: 1330
           REMOTE_USER: root
